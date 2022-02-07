@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+body{
+    background-image: url("https://cdn.internationalstudent.com/images/stock-images/youth-hostel.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.center{
+    margin-top:150px;
+}
+.card{
+    height: 350px;
+    width: 450px !important;
+    text-align:center;
+}
+/*Left Card*/
+.c1{
+    background: rgb(0,0,0) !important;
+}
+
+.c1 h5{
+    color:#fff;
+    font-weight:bold;
+    font-size:25px;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.sub1{
+    width:50% !important;
+    margin-right:130px;    
+    border-radius: 15px !important;
+    background: rgb(0, 0, 0) !important;
+    margin-bottom:10px !important;
+}
+.sign:hover{
+    color:#fff;
+}
+.sign{
+    text-decoration: none;
+    color:#fff;
+    margin-top:10px;
+    font-size:16px;
+    margin-right:260px;
+    
+}
+.log{
+	cursor:pointer;
+	background-color:white;
+	color:black !important;
+	padding:10px 20px 10px 20px;
+	border-radius:15px;
+	text-decoration:none;
+	margin-right:260px;
+	margin-bottom:10px;
+}
+.i1{
+    width:75% !important;
+    margin-left:40px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+/*Right Card*/
+.c2{
+    background:rgb(0, 0, 0) !important; 
+}
+.c2 h5{
+    color:#fff;
+    font-weight:bold;
+    font-size:25px;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.i2{
+    width:75% !important;
+    margin-left:40px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.sub2{
+    width:50% !important;
+    margin-left:40px !important;    
+    border-radius: 15px !important;
+    background:rgb(255,255,255) !important;
+    color:black !important;
+    font-weight:bolder !important;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hostel Management</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="d-flex justify-content-center center">
+            <div class="card c1">
+                <div class="card-body">
+                  <h5 class="card-title">Login For Student</h5>
+                  <form action="student.html" method="GET">
+                        <input type="email" class="form-control i1" id="email1" name="email" placeholder="Your Email*" required>
+                        <input type="password" class="form-control i1" id="password1" name="password" placeholder="Your Password*" required>
+                        <a class="log" onclick="login()">Login</a>
+                        <br>
+                        <br>	
+                       
+                        <a class="sign" href="signup.html">Sign up?</a>
+                  </form>
+                </div>
+            </div>
+            <div class="card c2">
+                <div class="card-body">
+                  <h5 class="card-title">Login For Admin</h5>
+                  <form action="home" method="GET">
+                    <input type="email" class="form-control i2" name="email" placeholder="Your Email*" required>
+                    <input type="password" class="form-control i2" name="password" placeholder="Your Password*" required>
+                    <input type="submit" value="Login" class="sub2 form-control">
+                </form>
+                </div>
+            </div>
+    </div>
+    </div>
+    <script>
+    	function login()
+    	{
+    		let email = document.getElementById("email1").value;
+    		let password = document.getElementById("password1").value;
+    		window.location.href = "http://localhost:8080/Proj/home?email="+email+"&password="+password+"&login=1";
+    	}
+</script>
+</body>
+</html>

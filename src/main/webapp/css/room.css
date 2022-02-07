@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+body{
+    background-image: url("https://specials-images.forbesimg.com/imageserve/910999556/960x0.jpg?fit=scale");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+.center{
+    margin-top:80px;
+}
+.card{
+    height: 350px;
+    width: 450px !important;
+    text-align:center;
+}
+
+.c1{
+    background: rgb(0,0,0) !important;
+}
+
+.c1 h5{
+    color:#fff;
+    font-weight:bold;
+    font-size:25px;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.sub1{
+	color:black !important;
+    width:50% !important;
+    margin-right:130px;    
+    border-radius: 15px !important;
+    background: rgb(255,255,255) !important;
+    margin-bottom:10px !important;
+}
+.i1{
+    width:75% !important;
+    margin-left:40px;
+    margin-top:20px;
+    margin-bottom:20px;
+
+}
+.c1 a{
+	background-color:white;
+	color:black !important;
+	padding:10px 20px 10px 20px;
+	border-radius:15px;
+	cursor:pointer;
+}
